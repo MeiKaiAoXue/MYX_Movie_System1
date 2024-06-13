@@ -4,7 +4,7 @@
       <div class="login-form-header">
         <img style="width: 75px; height: 75px;float: left;padding-right: 40px;" src="../assets/img/logo.png"
              alt=""/>
-        <div class="login-form-text">星星影院 - 注册</div>
+        <div class="login-form-text">MYX影院 - 注册</div>
       </div>
       <div style="color: #91949c;font-weight: bolder">
         <p>Username</p>
@@ -15,7 +15,7 @@
         <el-input class="login-form-input" placeholder="确 认 密 码" v-model="checkPassword"
                   show-password></el-input>
         <div style="padding-top: 10px">
-          <el-checkbox v-model="agree">我已同意"星星影院"用户注册协议!</el-checkbox>
+          <el-checkbox v-model="agree">我已同意"myx影院"用户注册协议!</el-checkbox>
         </div>
         <el-button @click="postLogin" class="login-form-button" type="primary">SIGN UP</el-button>
       </div>

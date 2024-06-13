@@ -4,7 +4,7 @@
             <div class="login-form-header">
                 <img style="width: 75px; height: 75px;float: left;padding-right: 40px;" src="../assets/img/logo.png"
                      alt=""/>
-                <div class="login-form-text">星星影院 - 登录</div>
+                <div class="login-form-text">MYX影院 - 登录</div>
             </div>
             <div style="color: #91949c;font-weight: bolder">
                 <p>Username</p>
@@ -16,7 +16,7 @@
                     <div style="float: right">
                         <el-link href="/forget" style="font-weight: bolder;font-size: 14px;color: #91949c;"
                                  :underline="false">
-                            忘记密码?
+                            是否忘记密码?
                         </el-link>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
             <div class="login-form-footer">
                 <el-link href="/register" style="font-weight: bolder;font-size: 16px;color: #91949c;"
                          :underline="false">
-                    还没有账号？去注册
+                    还没有账号？点击前往注册
                     <i style="font-weight: bolder;font-size: 15px" class="el-icon-right"></i>
                 </el-link>
             </div>
