@@ -18,6 +18,7 @@ import java.util.Map;
 @RequestMapping("/api/arrangement")
 public class ArrangementController {
 
+
     @Resource
     private ArrangementService arrangementService;
 
