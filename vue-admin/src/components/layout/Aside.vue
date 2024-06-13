@@ -25,7 +25,7 @@
                 <el-menu-item style="padding-left: 70px" index="2-4">院线排片</el-menu-item>
               </router-link>
               <router-link to="/film/add">
-                <el-menu-item style="padding-left: 70px" index="2-2">新增电影</el-menu-item>
+                <el-menu-item style="padding-left: 70px" index="2-2">新增电影信息</el-menu-item>
               </router-link>
               <router-link to="/film/poster">
                 <el-menu-item style="padding-left: 70px" index="2-5">轮播海报</el-menu-item>
