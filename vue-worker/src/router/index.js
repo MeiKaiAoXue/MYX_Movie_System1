@@ -9,7 +9,8 @@ const routes = [
     {
         path: '/login',
         name: 'Login',
-        component: () => import("@/views/Login")
+        component: () =>
+            import ("@/views/Login")
     },
 
     //公共布局下的路由
@@ -20,36 +21,39 @@ const routes = [
 
             {
                 path: '/leaving',
-                component: () => import("@/views/Leaving")
+                component: () =>
+                    import ("@/views/Leaving")
             },
             {
                 path: '/evaluate',
-                component: () => import("@/views/Evaluate")
+                component: () =>
+                    import ("@/views/Evaluate")
             },
             {
                 path: '/activity',
-                component: () => import("@/views/Activity")
+                component: () =>
+                    import ("@/views/Activity")
             },
             {
                 path: '/phone',
-                component: () => import("@/views/Phone")
+                component: () =>
+                    import ("@/views/Phone")
             },
             {
                 path: '/setting',
-                component: () => import("@/views/Setting")
-            },
-            {
-                path: '/info',
-                component: () => import("@/views/Info")
+                component: () =>
+                    import ("@/views/Setting")
             },
             {
                 path: '/403',
-                component: () => import("@/views/error/403")
+                component: () =>
+                    import ("@/views/error/403")
             },
 
             {
                 path: '/404',
-                component: () => import("@/views/error/404")
+                component: () =>
+                    import ("@/views/error/404")
             },
         ]
     },
@@ -70,7 +74,7 @@ const router = new VueRouter({
 //路由卫士
 router.beforeEach((to, from, next) => {
     let isAuthenticated = localStorage.getItem("token") !== null
-    if (to.name !== 'Login' && !isAuthenticated) next({name: 'Login'})
+    if (to.name !== 'Login' && !isAuthenticated) next({ name: 'Login' })
     else next()
 })
 

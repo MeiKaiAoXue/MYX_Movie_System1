@@ -16,7 +16,7 @@
                     <div style="float: right">
                         <el-link href="/forget" style="font-weight: bolder;font-size: 14px;color: #91949c;"
                                  :underline="false">
-                            是否忘记密码?
+                            忘记密码?
                         </el-link>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
             <div class="login-form-footer">
                 <el-link href="/register" style="font-weight: bolder;font-size: 16px;color: #91949c;"
                          :underline="false">
-                    还没有账号？点击前往注册
+                    还没有账号？前往注册
                     <i style="font-weight: bolder;font-size: 15px" class="el-icon-right"></i>
                 </el-link>
             </div>
