@@ -6,4 +6,6 @@ import org.mapstruct.Mapper;
 
 @Mapper
 public interface DailyWorkMapper extends BaseMapper<DailyWork> {
+
+
 }
