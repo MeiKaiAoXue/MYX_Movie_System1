@@ -4,7 +4,7 @@
             <div class="login-form-header">
                 <img style="width: 75px; height: 75px;float: left;padding-right: 30px;" src="../assets/img/logo.png"
                      alt=""/>
-                <div class="login-form-text">星星影院 - 后台管理</div>
+                <div class="login-form-text">MYX影院 - 后台管理</div>
             </div>
             <div style="color: #91949c;font-weight: bolder">
 
