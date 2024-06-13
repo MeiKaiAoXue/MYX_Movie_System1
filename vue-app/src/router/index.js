@@ -52,11 +52,6 @@ const routes = [
                     import ("@/views/Films")
             },
             {
-                path: '/active',
-                component: () =>
-                    import ("@/views/Active")
-            },
-            {
                 path: '/seat',
                 component: () =>
                     import ("@/views/Seat")
