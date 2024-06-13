@@ -5,13 +5,12 @@
  Source Server Type    : MySQL
  Source Server Version : 50717
  Source Host           : localhost:3306
- Source Schema         : no190_my_movie
+ Source Schema         : my_movie
 
  Target Server Type    : MySQL
  Target Server Version : 50717
  File Encoding         : 65001
 
- Date: 20/01/2024 16:44:11
 */
 
 SET NAMES utf8mb4;
