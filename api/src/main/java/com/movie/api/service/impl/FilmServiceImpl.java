@@ -16,6 +16,8 @@ import java.util.List;
 @CacheConfig(cacheNames = "film")
 public class FilmServiceImpl implements FilmService {
 
+
+
     @Resource
     private FilmMapper filmMapper;
 
