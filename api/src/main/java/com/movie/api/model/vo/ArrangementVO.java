@@ -11,6 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 public class ArrangementVO {
 
+
     private List<Arrangement> arrangements;
 
     private Film film;
