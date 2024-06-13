@@ -15,6 +15,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class CartVO {
 
+
     private Film film;
 
     private Arrangement arrangement;

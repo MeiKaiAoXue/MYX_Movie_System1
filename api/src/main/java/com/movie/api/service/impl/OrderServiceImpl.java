@@ -25,6 +25,7 @@ import java.util.UUID;
 @CacheConfig(cacheNames = "order")
 public class OrderServiceImpl implements OrderService {
 
+
     @Resource
     private OrderMapper orderMapper;
 
