@@ -36,7 +36,7 @@
                       <p class="ranking-release-time">上映时间：{{ top1.releaseTime }}</p>
 
                       <p class="ranking-top-wish">
-                        <span class="stonefont">热度值: </span>{{ top1.hot }}
+                        <span class="stonefont">热映值: </span>{{ top1.hot }}
                       </p>
                     </div>
                   </div>
@@ -49,7 +49,7 @@
                   <span class="img-link">
                     <img style="height: 180px" class="ranking-img default-img" :alt="top2.name" :src="top2.cover"></span>
                   <div class="name-link ranking-movie-name">{{ top2.name }}</div>
-                  <span class="ranking-num-info"><span class="stonefont">热度值: </span>{{ top2.hot }}</span>
+                  <span class="ranking-num-info"><span class="stonefont">热映值: </span>{{ top2.hot }}</span>
                 </router-link>
               </li>
 
@@ -59,7 +59,7 @@
                   <span class="img-link">
                     <img style="height: 180px" class="ranking-img default-img" :alt="top3.name" :src="top3.cover"></span>
                   <div class="name-link ranking-movie-name">{{ top3.name }}</div>
-                  <span class="ranking-num-info"><span class="stonefont">热度值: </span>{{ top3.hot }}</span>
+                  <span class="ranking-num-info"><span class="stonefont">热映值: </span>{{ top3.hot }}</span>
                 </router-link>
               </li>
 

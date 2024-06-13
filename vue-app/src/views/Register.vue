@@ -54,7 +54,7 @@ export default {
       }
       if (this.agree === false) {
         this.$message({
-          message: '请勾选 我已同意"星星影院"用户注册协议!',
+          message: '请勾选 我已同意MYX影院"用户注册协议!',
           type: 'warning'
         });
         return

@@ -14,9 +14,10 @@
           <el-input type="password" v-model="worker.password"></el-input>
         </el-form-item>
         <el-form-item label="性别">
-          <el-radio-group v-model="worker.gender">
+          <el-radio v-model="worker.gender">
             <el-radio label="男生"></el-radio>
             <el-radio label="女生"></el-radio>
+            <el-radio label="保密"></el-radio>
           </el-radio-group>
         </el-form-item>
         <el-form-item style="padding: 0" label="电话号码">
