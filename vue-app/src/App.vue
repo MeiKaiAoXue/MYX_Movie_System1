@@ -4,6 +4,7 @@
 
 <style>
     body {
+
         width: 100%;
         min-width: 1500px;
         height: 100%;
