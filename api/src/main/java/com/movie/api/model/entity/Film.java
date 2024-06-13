@@ -16,6 +16,8 @@ import java.io.Serializable;
 @AllArgsConstructor
 public class Film implements Serializable {
 
+
+
     private String id;
 
     private String name;
