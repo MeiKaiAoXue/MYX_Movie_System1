@@ -22,6 +22,8 @@ public class ArrangementServiceImpl implements ArrangementService {
     @Resource
     private ArrangementMapper arrangementMapper;
 
+
+
     @Resource
     private FilmMapper filmMapper;
 
