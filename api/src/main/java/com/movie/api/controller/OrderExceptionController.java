@@ -26,7 +26,9 @@ public class OrderExceptionController {
     @GetMapping("")
     @ApiOperation("查询所有异常订单")
     public List<OrderException> findAll() {
+
         return orderExceptionService.findAll();
+
     }
 
     @PutMapping("")
