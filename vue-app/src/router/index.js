@@ -10,69 +10,74 @@ const routes = [
     {
         path: '/login',
         name: 'Login',
-        component: () => import("@/views/Login")
+        component: () =>
+            import ("@/views/Login")
     },
 
     {
         path: '/register',
         name: 'Register',
-        component: () => import("@/views/Register")
+        component: () =>
+            import ("@/views/Register")
     },
 
     //公共布局下的路由
     {
         path: '/',
         component: Layout,
-        children: [
-            {
+        children: [{
                 path: '',
-                component: () => import("@/views/Home")
+                component: () =>
+                    import ("@/views/Home")
             },
             {
                 path: '/film',
-                component: () => import("@/views/film/Index"),
-                children: [
-                    {
+                component: () =>
+                    import ("@/views/film/Index"),
+                children: [{
                         path: 'info',
-                        component: () => import("@/views/film/Info")
+                        component: () =>
+                            import ("@/views/film/Info")
                     },
                     {
                         path: 'ticket',
-                        component: () => import("@/views/film/Ticket")
+                        component: () =>
+                            import ("@/views/film/Ticket")
                     }
                 ]
             },
             {
                 path: '/films',
-                component: () => import("@/views/Films")
+                component: () =>
+                    import ("@/views/Films")
             },
             {
                 path: '/active',
-                component: () => import("@/views/Active")
+                component: () =>
+                    import ("@/views/Active")
             },
             {
                 path: '/seat',
-                component: () => import("@/views/Seat")
-            },
-            {
-                path: '/leaving',
-                component: () => import("@/views/Leaving")
+                component: () =>
+                    import ("@/views/Seat")
             },
             {
                 path: '/me',
                 component: Me,
-                children: [
-                    {
+                children: [{
                         path: 'cart',
-                        component: () => import("@/views/me/Cart")
+                        component: () =>
+                            import ("@/views/me/Cart")
                     },
                     {
                         path: 'order',
-                        component: () => import("@/views/me/Order")
+                        component: () =>
+                            import ("@/views/me/Order")
                     },
                     {
                         path: 'setting',
-                        component: () => import("@/views/me/Setting")
+                        component: () =>
+                            import ("@/views/me/Setting")
                     },
                 ]
             },
