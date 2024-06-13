@@ -18,7 +18,6 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.OutputStream;
 
-
 /**
  * 上传图片存放为二进制到mysql
  */
