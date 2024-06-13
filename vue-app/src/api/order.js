@@ -1,5 +1,5 @@
 import service from "../utils/request";
-//
+
 export function CreateOrder(data) {
     return service({
         url: "/order",
