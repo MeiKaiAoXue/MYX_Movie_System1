@@ -19,6 +19,7 @@ public class UserServiceImpl implements UserService {
     @Resource
     private UserMapper userMapper;
 
+
     @Resource
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 

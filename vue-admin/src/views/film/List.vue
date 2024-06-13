@@ -211,7 +211,7 @@
           </el-button>
           <el-popconfirm
               confirm-button-text='确定'
-              cancel-button-text='不用了'
+              cancel-button-text='取消'
               icon="el-icon-info"
               icon-color="red"
               @confirm=handleDelete(scope.$index,scope.row)
